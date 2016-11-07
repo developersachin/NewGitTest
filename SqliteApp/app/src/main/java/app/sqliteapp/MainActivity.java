@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                         Cursor res=mydb.getAllData();
                         if(res.getCount()==0)
                         {
-                            showMessage("Error","no data found");
+                            showMessage("Error","no data found!");
                             return;
                         }
                         StringBuffer stringBuffer=new StringBuffer();
