@@ -44,11 +44,11 @@ public class MainActivity extends AppCompatActivity {
                                 editText_surname.getText().toString(),editText_marks.getText().toString());
                         if(isinserted)
                         {
-                            Toast.makeText(MainActivity.this,"data inserted",Toast.LENGTH_LONG).show();
+                            Toast.makeText(MainActivity.this,"data inserted!",Toast.LENGTH_LONG).show();
                         }
                         else
                         {
-                            Toast.makeText(MainActivity.this,"data not inserted",Toast.LENGTH_LONG).show();
+                            Toast.makeText(MainActivity.this,"data not inserted!",Toast.LENGTH_LONG).show();
                         }
 
                     }
